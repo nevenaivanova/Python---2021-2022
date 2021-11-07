@@ -1,0 +1,58 @@
+#Exerice 6
+speed = float (input())
+if speed <=10:
+    print ('slow')
+elif 10 < speed <=50:
+    print('average')
+elif 50 < speed <=150:
+    print('fast')
+elif 150 < speed <= 1000:
+    print ('ultra fast')
+else:
+    pint ('extremely fast')
+
+"""
+#Exerice 5
+name_of_series= str(input())
+duration_of_episode= int(input())
+duration_of_break=int(input())
+
+time_of_lunch=duration_of_break/8
+time_for_relax=duration_of_break/4
+
+time_left = duration_of_break - time_of_lunch - time_for_relax
+
+if time_left >= duration_of_episode:
+    print (f'You have enough time to watch {name_of_series}')
+else:
+    print (f'You do not have enough time to watch{name_of_series}')
+"""
+
+
+
+
+"""
+#Exerice1
+price_of_trip = float(input())
+number_of_puzzles = int(input())
+number_of_dolls = int(input())
+number_of_bears = int(input())
+number_of_minions = int(input())
+number_of_lorries = int(input())
+
+number_of_toys = number_of_puzzles + number_of_dolls + number_of_bears+number_of_minions + number_of_lorries
+
+order_price = number_of_puzzles * 2.60 + number_of_dolls * 3 + number_of_bears * 4.10 + number_of_minions * 8.20 + number_of_lorries * 2
+
+if number_of_toys >= 50:
+    order_price*= 0.75
+    
+final_sum = order_price
+rent = final_sum * 0.1
+earnings = final_sum - rent
+
+if earnings >= price_of_trip:
+    print( "Yes, she will go on a trip!")
+else:
+    print("No, she won't go on a trip!")
+"""
